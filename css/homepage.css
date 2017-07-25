@@ -35,7 +35,20 @@ body,
 }
 
 .top-nav-collapse {
-    background-color: #1C2331;
+    background-color: white;
+}
+
+
+
+.top-nav-collapse h2{
+    color: red;
+    font-weight: bold;
+}
+
+.top-nav-collapse p{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
@@ -78,7 +91,10 @@ body,
         text-align: center;
             font-weight: bold;
             color: black;
+            font-size: 15px;
         }
+
+
 
         .avatar{
             background-color: red;
@@ -122,7 +138,8 @@ body,
             margin-top: 6px; 
             margin-left:33px; 
             background-color:black;
-            border:1px solid white;
+            border:2px solid white;
+            border-radius: 40px;
         }
 
   
@@ -134,7 +151,19 @@ body,
         margin-top: 6px; 
         margin-left:15px; 
         background-color:black;
-        border:1px solid white;
+        border:2px solid white;
+        border-radius: 40px;
+    }
+
+    #partyvendorcard{
+        color:white; 
+        font-weight:bold; 
+        margin-top: 6px; 
+        margin-left:80px; 
+        background-color:black;
+        border:2px solid white;
+
+
     }
 
     #coloricons{
@@ -143,7 +172,7 @@ body,
 
     #headericons{
         color: red;
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 7px;
         background-color: white;
         border-radius: 50%;
@@ -159,3 +188,77 @@ body,
         color:black;
         font-weight: bold;
     }
+
+    #testimonialsimage{
+            height: 90px;
+            width: 90px;
+    }
+
+   .form{
+    padding: 0px 40px;
+}
+
+#selecting{
+    width: 210px;
+}
+
+    #searchbutton{
+        top: 20px;
+    }
+
+    h6{
+        color: black;
+    }
+
+    /*Beginner header dropdown*/
+
+        #wrapper{
+            width: 140%;
+            border:1px solid white;
+            height:40%;
+            margin-left: -40%;
+            background-color: blue;
+           }
+        
+        .dropdownoptions{
+           padding-left: 35px;
+            
+        }
+
+        p a {
+            text-decoration: none;
+
+            
+        }
+
+        strong{
+            color: red;
+            font-weight: bold;
+        }
+    /*end header dropdown*/
+
+
+
+    #sideimage{
+font-size:120px;
+    color:black; 
+   
+    
+    margin-left:20px;
+    margin-top:33px;
+}
+
+#sideimagewrapper{
+background-color:white;
+    box-shadow:0px 2px 2px 2px rgba(0, 0, 0, 0.70); 
+    border:1px solid darkblue;  
+    margin-left: 45px;
+    border-radius:50%; 
+    width:50%; 
+    height:170px;
+     background-color: #f4f4f4;
+}
+
+.Bookingvendor{
+    margin-left: 10px;
+}
